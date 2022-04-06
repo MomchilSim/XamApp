@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewmodels="clr-namespace:XamarinApp.ViewModels"
+             x:Class="XamarinApp.Views.AddItemPage"
+             BackgroundColor="AliceBlue">
+
+        <ContentPage.BindingContext>
+            <viewmodels:ItemAddViewModel/>
+        </ContentPage.BindingContext>
+    <ContentPage.Content>
+        
+        <Frame CornerRadius="10" >
+            <Grid RowDefinitions="*" ColumnDefinitions="*" BackgroundColor="pink" Padding="20" HeightRequest="100" >
+                <Editor Placeholder="Name" Text="{Binding Name}" />
+                <Button Text="Create" Grid.Column="1" BackgroundColor="LightPink" Command="{Binding AddCommand}" Clicked="Button_Clicked"/>
+                <Editor Placeholder="Short Description" Grid.Row="1"  Text="{Binding ShDesc}"/>
+                <Editor Placeholder="Stored Location" Grid.Row="1" Grid.Column="1" Text="{Binding LgDesc}"/>
+                <Editor Placeholder="Quantity" Grid.Row="2"  Text="{Binding Qty}"/>
+                    <Editor Placeholder="Type of Quantity" Grid.Row="2" Grid.Column="1"  Text="{Binding TypeOfQty}"/>
+            </Grid>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

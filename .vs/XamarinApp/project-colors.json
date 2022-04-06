@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b3483c50-6ab6-4707-bf46-3cefe8610280": {
+      "ProjectGuid": "b3483c50-6ab6-4707-bf46-3cefe8610280",
+      "DisplayName": "XamarinApp",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "2a0af1ab-28c8-4e32-920f-fa916d93a053": {
+      "ProjectGuid": "2a0af1ab-28c8-4e32-920f-fa916d93a053",
+      "DisplayName": "XamarinApp.iOS",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
